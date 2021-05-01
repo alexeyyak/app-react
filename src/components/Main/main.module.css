@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #ffff;
+  width: 100%;
+  min-height: 100vh;
+}

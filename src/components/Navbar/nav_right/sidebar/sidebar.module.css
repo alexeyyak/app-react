@@ -1,0 +1,41 @@
+.overflow {
+  height: 100vh;
+  overflow: auto;
+}
+.wrapper {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 33px;
+  margin-right: 25px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #919191;
+}
+.number {
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #919191;
+}
+
+.friends {
+  margin-top: 10px;
+}
+
+.friend {
+  margin-top: 20px;
+  margin-left: 14px;
+}

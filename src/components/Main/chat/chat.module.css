@@ -1,0 +1,10 @@
+.overflow {
+  height: 100vh;
+  overflow: auto;
+}
+
+.chat {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 19px;
+}

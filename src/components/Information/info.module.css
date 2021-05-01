@@ -1,0 +1,126 @@
+.Info {
+  flex: 0 0 200px;
+  background: #ffffff;
+  opacity: 0.8;
+}
+.wrapper {
+  padding-left: 20px;
+}
+.profile {
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+.name {
+  position: relative;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.name::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 81px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #70cc16;
+  -webkit-border-radius: 50%;
+}
+.post {
+  font-size: 12px;
+  font-weight: normal;
+  color: #5f6164;
+}
+.icons {
+  display: flex;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #e8e8eb;
+}
+.icon:not(:last-child) {
+  margin-right: 5px;
+}
+
+.img {
+  font-size: 15px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.message {
+  margin-top: 20px;
+}
+.btn {
+  position: relative;
+  padding: 4px 40px;
+  background-color: #3577ef;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.btn:hover {
+  background-color: rgba(53, 119, 239, 0.8);
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.btn:hover::before {
+  background-color: rgba(53, 119, 239, 0.8);
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  border-radius: 5px;
+  background-color: #3577ef;
+  height: 24px;
+  width: 25px;
+  top: 0;
+  right: -28px;
+}
+.btn_pic {
+  font-size: 12px;
+  position: absolute;
+  top: 6px;
+  right: -21px;
+}
+
+.data {
+  margin-top: 15px;
+}
+.item {
+  margin-bottom: 14px;
+}
+.title {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5f6164;
+}
+.desc {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
